@@ -1,7 +1,5 @@
 <?php
 
-
-
 $destino=array(
     "Vueling-AE12" => "Milán",
     "Volotea-EA21" => "Roma",
@@ -13,8 +11,6 @@ $destino=array(
     "Ryanair-EL00" => "Madrid",
     "Vueling-AE12" => "Roma",
     "Volotea-EA21" => "Roma");
-
-
 
 $fabricante=array(
     "Vueling-AE12" => "Boeing",
@@ -42,7 +38,6 @@ $duracion=array(
     array("Vuelo"=>"Ryanair-EW44","Tiempo"=>"360")
 );
     
-
 $pasajeros=array(
     array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"90"),
     array("Vuelo"=>"Volotea-EA21","Pasajeros"=>"75"),
