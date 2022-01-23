@@ -11,15 +11,9 @@ $pasajeros = array_sum($pasajeros);
 
 /*Número de aviones por fabricante*/
 
-
 /*Destino con más conexiones*/
 
-
 /*Destinos con menos conexiones*/
-
-
-
-#Estadística de Ciudades
 
 /*El número totales de ciudades visitadas*/
 $destino = count($destino);
@@ -33,8 +27,6 @@ $destino = count($destino);
 /*Cuales son las ciudades menos visitadas.*/
 
 
-
-#Estadística del Avión
 
 /*Destinos del avión*/
 
