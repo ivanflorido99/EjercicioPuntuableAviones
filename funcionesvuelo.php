@@ -3,7 +3,7 @@ include 'arrayvuelos.php';
 
 $Vuelo = $_POST["vuelo"];
 
-/*Media de horas voladas de todos los vuelos*/
+/*Media de horas*/
 $mediavuelo = array_sum($duracion)/count($duracion);
 
 /*Numero total de pasajeros de todos los vuelos*/
