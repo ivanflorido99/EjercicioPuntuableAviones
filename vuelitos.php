@@ -32,7 +32,7 @@ fabri ($fabricante,$id);
 
 #Minutos totales
 
-minutosTotales ($duracion,$id);
+minutototal ($duracion,$id);
 
 ?>
 </body>
