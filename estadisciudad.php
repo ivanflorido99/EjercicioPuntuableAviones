@@ -20,11 +20,11 @@ visitas ($destino);
 
 #Ciudad mas visitada 
 
-maxvisitas ($destino);
+maximovisitas ($destino);
 
 #Ciudades menos visitada
 
-minvisitas ($destino);
+minimovisitas ($destino);
 
 ?>
 </body>
