@@ -16,7 +16,7 @@ mediahoras ($duracion);
 
 #Numero total de pasajeros
 
-totalpasajeros ($pasajeros);
+totalpasajeros ($pasajero);
 
 #Numero de aviones por fabricantes
 
