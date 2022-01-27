@@ -16,7 +16,7 @@ destinos ($destino);
 
 #Veces que se ha ido a una ciudad.
 
-visitas ($destino);
+visita ($destino);
 
 #Ciudad mas visitada 
 
