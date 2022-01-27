@@ -12,11 +12,11 @@ include 'funcionesvuelo.php';
 
 #Media de horas voladas total
 
-mediahoras ($duracion);
+horamedia ($duracion);
 
 #Numero total de pasajeros
 
-totalpasajeros ($pasajero);
+totalpasajero ($pasajero);
 
 #Numero de aviones por fabricantes
 
