@@ -17,6 +17,8 @@ function minimasconexiones ($destino){
     
 
     foreach ($num as $num2 => $nume) {
+        
+        
         $minmoconexione= min(array_count_values($num));
         if ($nume == $minmoconexione) {
            
@@ -28,6 +30,7 @@ function minimasconexiones ($destino){
 
 /*El número totales de ciudades visitadas*/
 function destinos ($destino){
+   
     $array=array_unique(array_column($destino, 'Destino'));
     $arrayLi=array_intersect_key($destino,$array);
     echo " Numero total de ciudades visitadas: ".count($arrayLi)."<br>";
@@ -37,6 +40,7 @@ function destinos ($destino){
 /*Las veces que se ha ido a una determinada ciudad.*/
 
 function visitas ($destino){
+   
     $visita=array_count_values(array_column($destino, 'Destino'));
     echo "visitas: "."<br>";
    
@@ -49,6 +53,7 @@ function visitas ($destino){
 
 
 function maximovisitas ($destino){
+   
     $visitasmax=max(array_column($destino, 'Destino'));
     echo "La ciudad mas visitada es: " . $visitasmax . "<br>";
 }
@@ -158,5 +163,49 @@ function totalPasajero ($pasajero){
         }
     echo "paasajeros totales: ". $num ."<br>";
 }
+
+
+/*Utimos <destinosssss></destinosssss*/
+
+
+function ultimosdestinos ($destino,$id){
+   
+    foreach ($destino as $ultimodestino) {
+           
+        $ulti=$ultimodestino["Destino"];
+           
+        
+        $Vuelo=$ultimodestino["Vuelo"];
+           
+        if ($Vuelo == $id) {
+              echo $ulti.", ";
+            }
+    }
+    echo " Ultimos destinos: ";
+    echo "<br>";
+    }
+
+
+#Compañia
+
+function compañia ($compañia,$id){
+    
+    foreach ($compañia as $compañia21) {
+        
+        $compañia21=$compañia21["Compañia"];
+        
+        $Vuelo=$compañia21["Vuelo"];
+       
+        if ($Vuelo == $id) {
+            echo "la compañia con la que vuelas es : ". $compañia21."<br>";
+            }
+    }
+}
+
+
+
+
+
+
 
 ?>
