@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>VUELO</title>
+    <title>Estadisticaaeropuerto</title>
     </head>
 <body>
 <?php
