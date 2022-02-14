@@ -10,7 +10,14 @@ $destino=array(
     "Iberia-WH44" => "Roma",
     "Ryanair-EL00" => "Madrid",
     "Vueling-AE12" => "Roma",
-    "Volotea-EA21" => "Roma");
+    "Volotea-EA21" => "Roma"
+    "Iberia-WE44" => "New York",
+    "Ryanair-EW44" => "Tokio",
+    "Vueling-ZK87" => "Chicago",
+    "Volotea-UA21" => "Paris"
+    "Iberia-WH44" => "Oporto"
+    "Ryanair-EL00" => "Los Ángeles",
+);
 
 $fabricante=array(
     "Vueling-AE12" => "Boeing",
@@ -42,7 +49,7 @@ $pasajeros=array(
     array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"90"),
     array("Vuelo"=>"Volotea-EA21","Pasajeros"=>"75"),
     array("Vuelo"=>"Iberia-WE44","Pasajeros"=>"100"),
-    array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"100"),
+    array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"60"),
     array("Vuelo"=>"Vueling-ZK87","Pasajeros"=>"77"),
     array("Vuelo"=>"Volotea-UA21","Pasajeros"=>"93"),
     array("Vuelo"=>"Iberia-WH44","Pasajeros"=>"86"),
@@ -62,6 +69,18 @@ $pasajeros=array(
     array("Vuelo"=>"Vueling-ZK87","Pasajeros"=>"82")
 );
 
+
+$despegue=array(  
+
+
+
+
+
+
+
+
+
+);
 
 
 
